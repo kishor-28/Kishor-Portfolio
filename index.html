@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kishor Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Kishor <span>Nikhare</span></h1>
+            <p>As a skilled web developer, I excel in HTML, CSS, JavaScript, and React.js for front-end development, along with PHP for back-end functionality. </p>
+            <p>With a keen eye for detail and a passion for creating dynamic and user-friendly websites, I bring expertise in crafting responsive designs and optimizing site performance.</p>
+            
+            <div class="social-media">
+                <a href="https://github.com/kishor-28"><i class='bx bxl-github'></i></a>
+                <a href="https://www.linkedin.com/in/kishor-nikhare-03291127a/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="/MyResume.pdf" download="MyResume.pdf" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                Hi there, welcome to my website! I am Kishor,
+                a passionate web developer who enjoys learning new technologies
+                and solving problems with code!
+            </p>
+            <p>
+                This website is my personal website where I write about web development
+                topics that interest me and inspire me.
+            </p>
+            <p>
+                Thank you for visiting my website and getting to know me better. I hope you
+                enjoyed reading my skills and
+                found
+                them useful and informative. If you want to read more of my skills, 
+                so ask me through contact. If you have any feedback or
+                suggestions, please let me know. I'd love to hear from you.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- my skills section design -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+ 
+        <div class="skills-container">
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Web developers use languages like HTML, CSS, and JavaScript to create web pages, as well as frameworks and libraries like Bootstrap and jQuery to streamline development. Understanding web development means having knowledge of front-end (client-side) and back-end.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>React Js</h3>
+                <p>React.js referred to as React, is an open-source JavaScript library maintained by Facebook. It's commonly used for building user interfaces, particularly for single-page applications where UI updates are frequent.It allows developers to create reusable UI components.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="skills-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Php</h3>
+                <p>PHP (Hypertext Preprocessor) is a server-side scripting language widely used for web development. It's especially popular for building dynamic web pages and web applications. PHP scripts are executed on the server, generating HTML content that is then sent to the client's web browser. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- latest projects section design -->
+    <section class="projects" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box mySwiper">
+                <div class="projects-content swiper-wrapper">
+                    <div class="projects-slide swiper-slide">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>Welcome to my portfolio! Through the harmonious blend of HTML, CSS, and JavaScript.Here, I've crafted a space to showcase my journey as a web developer and creative thinker. Through this website, you'll discover about me, my skills, my latest projects, and passion for crafting compelling digital experiences. With a clean and modern design, I've curated a collection of my best work, including web development projects, design samples.</p>
+                    </div>
+                    <div class="projects-slide swiper-slide">
+                        <h3>Weather App</h3>
+                        <p>Step into the world of weather with my React-powered weather app! Designed with simplicity and functionality in mind, this app provides real-time weather updates at your fingertips. Whether you're planning your day or just curious about the forecast, this app has you covered. Powered by React.js and integrated with a reliable weather API, it delivers and provide accurate weather data for any location.</p>
+                    </div>
+                    <div class="projects-slide swiper-slide">
+                        <h3>News App using API</h3>
+                        <p>Stay informed and connected with the latest news through my React-driven news app! With the world constantly evolving, it's crucial to have access to up-to-date information, and this app delivers just that. By harnessing the power of React components and leveraging a comprehensive news API, I've created a dynamic platform where users can explore news articles from around the globe. </p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
